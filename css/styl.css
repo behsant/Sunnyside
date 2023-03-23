@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(235, 243, 243);
+}
+
+.home{
+    display: flex;
+    
+    flex-direction: column;
+    background-color: #3EBFFF;
+    height: 500px;
+    
+}
+
+.menu{
+    color: black;
+    text-align: right;
+}
+
+button{
+    border: 0;
+    cursor: pointer;
+    color: white;
+    background-color: aqua;
+}
+
+
+.branco{
+    background-color: aliceblue;
+    color: black;
+    width: 50%;
+    height: 300px;
+    text-align: center;
+}
+
+.yellow{
+    background-color:#FFD302;
+    width: 50%;
+    height: 300px;
+    
+    
+}
+
+.verde{
+    background-color: #A0DDCE;
+    width: 50%;
+    height: 300px;
+}
+
+.azul{
+    background-color: #54C2F7;
+    width: 50%;
+    height: 300px;
+}
+
+.white{
+    background-color: #FFFFFF;
+    width: 400%;
+    height: 400px;
+    display: flex;
+}
+
+.azul2{
+    background-color: #3EBFFF;
+    width: 50%;
+    height: 400px;
+}
+
+.amarelo{
+    background-color: #FFD302;
+    width: 50%;
+    height: 400px;
+}
+
+.azul3{
+    background-color: #54C2F7;
+    width: 50%;
+    height: 400px;
+}
+
+.pink{
+    background-color: #FE817E;
+    width: 50%;
+    height: 400px;
+}
+
+.green{
+     background-color:#90D4C5;
+    width: 400%;
+    height: 350px;
+    display: flex;
+}
+
+
+.etapa1{
+    display: flex;
+}
+
+
+
+h1{
+    color:aliceblue;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
