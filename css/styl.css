@@ -10,23 +10,40 @@ body{
 
 .home{
     display: flex;
-    
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     background-color: #3EBFFF;
     height: 500px;
     
 }
 
+.home img{
+    padding: 10px;;
+    width: 50px;
+}
+
 .menu{
     color: black;
     text-align: right;
+    background-color: #3EBFFF;
+    padding: 15px;
+
 }
 
-button{
-    border: 0;
-    cursor: pointer;
-    color: white;
-    background-color: aqua;
+.menu a{
+    text-decoration: none;
+    color: aliceblue;
+    padding-left: 10px;
+    font-weight: bolder;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.logan{
+    color: aliceblue;
+    text-align: left;
+    font-weight: bolder;
+    width: 90px;
 }
 
 
@@ -34,8 +51,16 @@ button{
     background-color: aliceblue;
     color: black;
     width: 50%;
+    display: flex;
+    flex-direction: column;
     height: 300px;
     text-align: center;
+    padding: 19px;
+    text-align: left;
+}
+
+.branco span{
+    font-family:'Times New Roman', Times, serif
 }
 
 .yellow{
@@ -56,11 +81,17 @@ button{
     background-color: #54C2F7;
     width: 50%;
     height: 300px;
+    text-align: center;
+}
+
+.azul span{
+    text-align: left;
+    color: #248570;
 }
 
 .white{
     background-color: #FFFFFF;
-    width: 400%;
+    width: 100%;
     height: 400px;
     display: flex;
 }
@@ -91,9 +122,12 @@ button{
 
 .green{
      background-color:#90D4C5;
-    width: 400%;
+    width: 100%;
     height: 350px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 
@@ -101,12 +135,23 @@ button{
     display: flex;
 }
 
-
+.Sunnyside h1{
+    text-align: center;
+    color:#3e7468;
+    font-weight: bolder;
+}
 
 h1{
     color:aliceblue;
-    
-    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-transform:uppercase;
+}
+
+.links a{
+    color: #3e7468;
+    font-weight: bolder;
+    text-decoration: none;
+    padding: 10px;
 }
 
 
