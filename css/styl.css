@@ -19,8 +19,8 @@ body{
 }
 
 .home img{
-    padding: 10px;;
-    width: 50px;
+    padding: 20px;;
+    width: 80px;
 }
 
 .menu{
@@ -38,6 +38,8 @@ body{
     font-weight: bolder;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
+
+
 
 .logan{
     color: aliceblue;
@@ -60,7 +62,12 @@ body{
 }
 
 .branco span{
-    font-family:'Times New Roman', Times, serif
+    font-family:'Times New Roman', Times, serif;
+    text-align: left;
+    word-wrap: normal;
+    
+      
+
 }
 
 .yellow{
@@ -84,9 +91,20 @@ body{
     text-align: center;
 }
 
+.azul h2{
+    color: #248570;
+
+}
+
 .azul span{
     text-align: left;
     color: #248570;
+    
+        word-wrap: normal;
+      
+         
+    
+      
 }
 
 .white{
@@ -96,6 +114,25 @@ body{
     display: flex;
 }
 
+.img{
+     position: relative; 
+     padding: 90px;
+
+}
+
+.img h4{
+    color: rgb(146, 155, 155);
+    text-align: center;
+    
+}
+
+.img span{
+    white-space: nowrap; /* impede que o texto seja quebrado em várias linhas */
+  overflow: hidden; /* esconde o texto que ultrapassa o espaço disponível */
+  text-overflow: ellipsis; /* adiciona reticências no final do texto cortado */
+}
+
+  
 .azul2{
     background-color: #3EBFFF;
     width: 50%;
@@ -143,8 +180,10 @@ body{
 
 h1{
     color:aliceblue;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Courier New', Courier, monospace;
     text-transform:uppercase;
+    font-size: 45px;
+    font-weight: bolder;
 }
 
 .links a{
@@ -153,7 +192,6 @@ h1{
     text-decoration: none;
     padding: 10px;
 }
-
 
 
 
