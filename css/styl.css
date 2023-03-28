@@ -115,9 +115,7 @@ body{
 }
 
 .img{
-     position: relative; 
-     padding: 90px;
-
+   display: flex;
 }
 
 .img h4{
@@ -131,7 +129,13 @@ body{
   overflow: hidden; /* esconde o texto que ultrapassa o espaço disponível */
   text-overflow: ellipsis; /* adiciona reticências no final do texto cortado */
 }
-
+.img1{
+    display: flex;
+    flex-direction: column;
+}
+.img1 img{
+    width: 200px;
+}
   
 .azul2{
     background-color: #3EBFFF;
