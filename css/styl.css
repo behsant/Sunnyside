@@ -28,6 +28,9 @@ body{
     text-align: right;
     background-color: #3EBFFF;
     padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 1100px;
 
 }
 
@@ -38,8 +41,9 @@ body{
     font-weight: bolder;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
-
-
+.menu h2{
+    padding-left: 30px;
+}
 
 .logan{
     color: aliceblue;
@@ -89,10 +93,12 @@ body{
     width: 50%;
     height: 300px;
     text-align: center;
+    padding: 20px;
 }
 
 .azul h2{
     color: #248570;
+    
 
 }
 
@@ -110,28 +116,33 @@ body{
 .white{
     background-color: #FFFFFF;
     width: 100%;
-    height: 400px;
+    height: 200px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
-
-.img{
-   display: flex;
+.imagens{
+    display: flex;
+    gap: 50px;
+    padding-bottom: 50px;
 }
-
 .img h4{
     color: rgb(146, 155, 155);
-    text-align: center;
-    
+    text-align: center; 
 }
 
 .img span{
     white-space: nowrap; /* impede que o texto seja quebrado em várias linhas */
-  overflow: hidden; /* esconde o texto que ultrapassa o espaço disponível */
-  text-overflow: ellipsis; /* adiciona reticências no final do texto cortado */
+    overflow: hidden; /* esconde o texto que ultrapassa o espaço disponível */
+    text-overflow: ellipsis; /* adiciona reticências no final do texto cortado */
 }
 .img1{
     display: flex;
     flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding-left: 30px;
 }
 .img1 img{
     width: 200px;
